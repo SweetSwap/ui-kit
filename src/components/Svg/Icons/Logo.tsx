@@ -4,8 +4,8 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg width="244px" height="327px" viewBox="0 0 244 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" {...props}>
-      <title>sweetswap-icon</title>
+    <Svg  viewBox="0 0 244 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" {...props}>
+      {/* <title>sweetswap-icon</title width="244px" height="327px">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="sweetswap-icon" fill-rule="nonzero">
             <g id="Group_111">
@@ -28,7 +28,7 @@ const Icon: React.FC<SvgProps> = (props) => {
                 </g>
             </g>
         </g>
-    </g>
+    </g> */}
     </Svg>
   );
 };
